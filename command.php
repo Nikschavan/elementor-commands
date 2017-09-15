@@ -18,10 +18,10 @@ class Elementor_Commands extends WP_CLI_Command
 	 * 
 	 * ## EXAMPLES
 	 *
-	 *  1. wp elementor regenerate-css
+	 *  1. wp elementor-commands regenerate-css
 	 *      - This will regenerate the CSS files for elementor page builder.
 	 * 
-	 *  2. wp site list --field=url | xargs -n1 -I % wp --url=% elementor regenerate-css
+	 *  2. wp site list --field=url | xargs -n1 -I % wp --url=% elementor-commands regenerate-css
 	 *  	- This will regenerate the CSS files for elementor page builder on all the sites in network.
 	 * 
 	 * @alias regenerate-css
@@ -44,10 +44,10 @@ class Elementor_Commands extends WP_CLI_Command
 	 * 
 	 * ## EXAMPLES
 	 *
-	 *  1. wp elementor search-replace <source-url> <destination-url>
+	 *  1. wp elementor-commands search-replace <source-url> <destination-url>
 	 *      - This will Replace the URLs from <source-url> to <destination-url>.
 	 * 
-	 *  2. wp site list --field=url | xargs -n1 -I % wp --url=% elementor search-replace <source-url> <destination-url>
+	 *  2. wp site list --field=url | xargs -n1 -I % wp --url=% elementor-commands search-replace <source-url> <destination-url>
 	 *  	- This will Replace the URLs from <source-url> to <destination-url> on all the sites in network.
 	 * 
 	 * @alias search-replace
